@@ -1,13 +1,12 @@
-// next.config.ts
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // ESLint xatolari bo'lsa ham build davom etadi
   eslint: {
-    // ESLint xatolari bo'lsa ham build davom etadi
     ignoreDuringBuilds: true,
   },
+  // TypeScript xatolari bo'lsa ham build davom etadi
   typescript: {
-    // TypeScript xatolari bo'lsa ham build davom etadi
     ignoreBuildErrors: true,
   },
 };
