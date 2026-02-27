@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+// import React, { useState } from "react";
 import Link from "next/link";
 import {
   ArrowLeft,
@@ -11,7 +11,7 @@ import {
   Gavel,
   Shield,
   User,
-  MapPin,
+  // MapPin,
   Phone,
   CreditCard,
   Calendar,
